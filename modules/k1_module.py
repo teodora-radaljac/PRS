@@ -5,7 +5,7 @@ import plotly.express as px
 
 
 def render():
-    st.title("📐 Modul K1: Performanse procesora, diskova i memorije")
+    st.title(" Modul K1: Performanse procesora, diskova i memorije")
 
     tab1, tab2, tab3, tab4 = st.tabs(
         ["Amdahl-ov zakon", "CPU performanse", "Performanse diska", "Memorijska hijerarhija"]
@@ -141,7 +141,7 @@ def render_amdahl():
     st.plotly_chart(fig2, use_container_width=True)
 
     st.info(
-        "💡 **Pitanje za razmišljanje:** Zašto čak i sa 99% paralelizabilnog koda "
+        " **Pitanje za razmišljanje:** Zašto čak i sa 99% paralelizabilnog koda "
         "ne možemo dobiti ubrzanje veće od 100x?"
     )
 
