@@ -5,7 +5,7 @@ from math import factorial, exp
 
 
 def render():
-    st.title("📊 Modul K2: Sistemi masovnog opsluživanja")
+    st.title(" Modul K2: Sistemi masovnog opsluživanja")
 
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
         [
@@ -461,7 +461,7 @@ def render_central_server():
         st.dataframe(df, use_container_width=True, hide_index=True)
 
         bottleneck = all_names[np.argmax(all_demands)]
-        st.warning(f"⚠️ Usko grlo (bottleneck): **{bottleneck}** sa D = {max(all_demands):.2f} ms")
+        st.warning(f" Usko grlo (bottleneck): **{bottleneck}** sa D = {max(all_demands):.2f} ms")
 
         # Bar chart potražnji
         colors = ["#E91E63"] + ["#2196F3"] * M
