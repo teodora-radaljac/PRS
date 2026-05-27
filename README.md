@@ -2,7 +2,7 @@
 
 Interaktivna web aplikacija za vizualizaciju modela iz oblasti performansi računarskih sistema, razvijena kao nastavno sredstvo za istoimeni kurs na Univerzitetu u Beogradu — Elektrotehničkom fakultetu.
 
-![Početna stranica](slike/sl1_pocetna.png)
+
 
 ## Funkcionalnosti
 
