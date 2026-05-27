@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def render():
-    st.title("🌐 Modul K3: Otvorene mreže i operaciona analiza")
+    st.title(" Modul K3: Otvorene mreže i operaciona analiza")
 
     tab1, tab2, tab3, tab4 = st.tabs(
         [
